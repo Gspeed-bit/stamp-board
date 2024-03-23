@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 
+
+
 .section-container {
   @apply max-w-6xl mx-auto text-center px-10 ;
 }
@@ -13,9 +15,12 @@
 .feature-content{
   @apply max-w-lg md:text-start 
 }
+.hover-effect:hover {
+  @apply text-strongCyan; 
+}
 
 .section-content {
- @apply max-w-3xl mx-auto leading-9 text-2xl  text-grayishBlue;
+ @apply max-w-3xl mx-auto leading-10 text-2xl  text-grayishBlue;
 }
 
 .section-h1{
@@ -35,3 +40,7 @@ body{
   }
 }
 
+.ficon:hover {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+    brightness(101%) contrast(94%);
+}
